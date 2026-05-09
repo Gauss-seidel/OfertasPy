@@ -1,0 +1,120 @@
+[
+  {
+    "id": "1",
+    "titulo": "40% de descuento en supermercados",
+    "descripcion": "Pagá con tu tarjeta Ueno y obtené 40% off en todos los supermercados adheridos. Válido los fines de semana.",
+    "descuento": "40%",
+    "tienda": "Ueno Bank",
+    "categoria": "supermercado",
+    "medioPago": "Tarjeta Ueno",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.ueno.com.py",
+    "diasSemana": [0, 6]
+  },
+  {
+    "id": "2",
+    "titulo": "30% off en ropa de temporada",
+    "descripcion": "Liquidación fin de temporada en todas las sucursales. Hasta 30% de descuento en prendas seleccionadas.",
+    "descuento": "30%",
+    "tienda": "Zara",
+    "categoria": "ropa",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-06-15",
+    "source": "https://www.zara.com/py/"
+  },
+  {
+    "id": "3",
+    "titulo": "2x1 en hamburguesas",
+    "descripcion": "Todos los martes y jueves, llevá dos hamburguesas al precio de una con cualquier compra.",
+    "descuento": "2x1",
+    "tienda": "McDonald's",
+    "categoria": "restaurante",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-07-31",
+    "source": "https://www.mcdonalds.com.py/",
+    "diasSemana": [2, 4]
+  },
+  {
+    "id": "4",
+    "titulo": "15% off en tecnología",
+    "descripcion": "Descuento especial en notebooks, tablets y accesorios. Válido con tarjetas de crédito del Banco Itaú.",
+    "descuento": "15%",
+    "tienda": "Núcleo S.A.",
+    "categoria": "tecnologia",
+    "medioPago": "Tarjeta Itaú",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-06-30",
+    "source": "https://www.nucleo.com.py/"
+  },
+  {
+    "id": "5",
+    "titulo": "50% en segunda unidad",
+    "descripcion": "Comprá un producto y llevá el segundo al 50% de descuento. Aplican términos y condiciones.",
+    "descuento": "50%",
+    "tienda": "Farmacenter",
+    "categoria": "salud",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-05-31",
+    "source": "https://www.farmacenter.com.py/"
+  },
+  {
+    "id": "6",
+    "titulo": "20% off en viajes nacionales",
+    "descripcion": "Reservá tu próximo viaje dentro de Paraguay con 20% de descuento usando el código PY20.",
+    "descuento": "20%",
+    "tienda": "Billetes",
+    "categoria": "viajes",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-08-31",
+    "source": "https://www.billetes.com.py/"
+  },
+  {
+    "id": "7",
+    "titulo": "25% off en muebles y decoración",
+    "descripcion": "Descuentos en toda la línea de hogar. Aprovechá la colección otoño-invierno.",
+    "descuento": "25%",
+    "tienda": "Stock",
+    "categoria": "hogar",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-06-15",
+    "source": "https://www.stock.com.py/"
+  },
+  {
+    "id": "8",
+    "titulo": "3x2 en entradas de cine",
+    "descripcion": "Todos los miércoles, llevá 3 entradas al precio de 2. Válido para todas las películas en cartelera.",
+    "descuento": "3x2",
+    "tienda": "Cinemark",
+    "categoria": "entretenimiento",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.cinemark.com.py/",
+    "diasSemana": [3]
+  },
+  {
+    "id": "9",
+    "titulo": "10% de cashback en compras online",
+    "descripcion": "Obtené 10% de cashback en todas tus compras online realizadas con la app de Bancard.",
+    "descuento": "10%",
+    "tienda": "Bancard",
+    "categoria": "otros",
+    "medioPago": "Bancard",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.bancard.com.py/"
+  },
+  {
+    "id": "10",
+    "titulo": "20% de descuento en Farmatotal",
+    "descripcion": "Todos los martes, obtené 20% de descuento en Farmatotal pagando con Eko. Válido en todas las sucursales.",
+    "descuento": "20%",
+    "tienda": "Eko",
+    "categoria": "salud",
+    "medioPago": "Eko",
+    "fechaInicio": "2026-05-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.eko.com.py/",
+    "diasSemana": [2]
+  }
+]
