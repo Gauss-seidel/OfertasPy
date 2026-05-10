@@ -11,6 +11,7 @@ export interface Oferta {
   source: string
   logo?: string
   diasSemana?: number[]
+  tiendas?: string[]
 }
 
 export type Categoria =

@@ -1,7 +1,8 @@
-import { useRef, useEffect } from "react"
+import { useRef, useEffect, useState } from "react"
 import { animate } from "animejs"
 import type { Oferta } from "../types"
 import { CATEGORIAS, DIAS } from "../types"
+import DrawerTiendas from "./DrawerTiendas"
 
 interface OfertaCardProps {
   oferta: Oferta
@@ -43,6 +44,7 @@ function playEntrance(el: HTMLElement, index: number) {
 
 export default function OfertaCard({ oferta, index }: OfertaCardProps) {
   const ref = useRef<HTMLDivElement>(null)
+  const [drawerOpen, setDrawerOpen] = useState(false)
 
   useEffect(() => {
     const el = ref.current
@@ -65,6 +67,13 @@ export default function OfertaCard({ oferta, index }: OfertaCardProps) {
   const catLabel = CATEGORIAS.find((c) => c.value === oferta.categoria)?.label ?? oferta.categoria
 
   return (
+    <>
+    <DrawerTiendas
+      open={drawerOpen}
+      titulo={oferta.titulo}
+      tiendas={oferta.tiendas ?? []}
+      onClose={() => setDrawerOpen(false)}
+    />
     <div className="oferta-card" ref={ref}>
       <div className="card-header">
         <span className="card-tienda">{oferta.tienda}</span>
@@ -89,6 +98,16 @@ export default function OfertaCard({ oferta, index }: OfertaCardProps) {
           </span>
         )}
       </div>
+      {oferta.tiendas && oferta.tiendas.length > 0 && (
+        <button className="btn-tiendas" onClick={() => setDrawerOpen(true)}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="14" height="14">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <polyline points="9 22 9 12 15 12 15 22" />
+          </svg>
+          Ver {oferta.tiendas.length} tienda{oferta.tiendas.length !== 1 ? "s" : ""} adherida{oferta.tiendas.length !== 1 ? "s" : ""}
+        </button>
+      )}
     </div>
+    </>
   )
 }

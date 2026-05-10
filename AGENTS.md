@@ -1,6 +1,6 @@
 # AGENTS.md — OfertasPy
 
-Dashboard estático de ofertas y descuentos en Paraguay. Frontend Vite + React + TS con animejs v4. Backend Python para scraping. Deploy en Render.
+Dashboard estático de ofertas y descuentos en Paraguay. Frontend Vite + React + TS con animejs v4. Backend Python para scraping. Deploy en Render. **103 ofertas** de 14 fuentes + PDFs.
 
 ## Estructura
 
@@ -8,16 +8,18 @@ Dashboard estático de ofertas y descuentos en Paraguay. Frontend Vite + React +
 OfertasPy/
 ├── frontend/          # Vite + React + TypeScript
 │   ├── src/
-│   │   ├── components/  # Header, Dashboard, OfertaCard, Filtros, SelectorDia, Footer
+│   │   ├── components/  # Header, Dashboard, OfertaCard, DrawerTiendas, Filtros, SelectorDia, Footer
 │   │   ├── data/
-│   │   │   └── ofertas.json   # Datos que consume la app
-│   │   ├── types.ts
+│   │   │   └── ofertas.json   # Datos que consume la app (103 ofertas)
+│   │   ├── types.ts       # Oferta con tiendas?: string[]
 │   │   ├── App.tsx
-│   │   └── App.css
+│   │   └── App.css        # Incluye estilos del drawer tiendas
 │   └── index.html
 ├── backend/           # Python scrapers
-│   ├── scrapers/       # Uno por fuente (base.py, ueno.py, ...)
-│   ├── data/ofertas.json
+│   ├── scrapers/       # Uno por fuente + urls.py + pdf_scraper.py
+│   ├── data/
+│   │   ├── ofertas.json
+│   │   └── pdfs/       # Subcarpetas por fuente (basa/, continental/, ueno/)
 │   ├── run.py          # Orquesta todos los scrapers
 │   └── requirements.txt
 ├── .github/workflows/scrape.yml   # CI: corre scrapers cada 6h
@@ -35,7 +37,7 @@ npm run preview        # Previsualizar build
 npm run lint           # ESLint
 
 # backend
-python backend/run.py  # Ejecuta scrapers → backend/data/ofertas.json
+python backend/run.py  # Ejecuta scrapers → backend/data/ofertas.json (103 ofertas)
 ```
 
 ## Flujo de datos
@@ -81,13 +83,40 @@ animate('.cards', {
 | Componente | Animación |
 |---|---|
 | `Header` | splitText en h1, letras stagger, "O" gira como moneda, gradiente animado + partículas flotantes |
-| `OfertaCard` | IntersectionObserver → stagger entrance al hacer scroll |
+| `OfertaCard` | IntersectionObserver → stagger entrance al hacer scroll + botón "Ver tiendas" |
+| `DrawerTiendas` | Overlay fadeIn + drawer slide desde derecha + stagger en lista |
 | `Dashboard` | grid remount con fadeIn al filtrar, contador count-up |
 | `Footer` | toggle expandible con stagger en enlaces |
+
+## Tipos
+
+```ts
+interface Oferta {
+  id: string
+  titulo: string
+  descripcion: string
+  descuento: string
+  tienda: string
+  categoria: Categoria
+  medioPago?: string
+  fechaInicio?: string
+  fechaFin?: string
+  source: string
+  logo?: string
+  diasSemana?: number[]      // 0=Dom…6=Sáb
+  tiendas?: string[]         // Lista de locales adheridos (PDF Basa)
+}
+```
 
 ## Notas
 
 - `diasSemana: number[]` (0=Dom…6=Sáb) en el JSON: si no se incluye la oferta aplica todos los días.
-- Las ofertas mock en `ofertas.json` son de ejemplo. Reemplazar con scrapers reales.
+- Al filtrar por día solo aparecen ofertas que tengan ese día explicitamente en `diasSemana`.
+- `tiendas: string[]` contiene la lista de locales adheridos para ofertas de categoría (ej: todos los supermercados con 25% los jueves). Se muestra en un drawer lateral.
 - `prefers-reduced-motion` desactiva animaciones globalmente via CSS.
 - Favicon: moneda SVG con `%` en `public/favicon.svg`.
+- Las URLs de scraping se centralizan en `backend/scrapers/urls.py`. Editar solo ahí cuando un banco cambie su web.
+- Los PDFs de ofertas van en `backend/data/pdfs/<fuente>/`. `PdfScraper` los parsea automáticamente (requiere pymupdf).
+- PDF Basa se parsea por secciones (22 ofertas con tiendas). PDFs Continental y Ueno tienen baja calidad de texto → se filtran automáticamente.
+- `run.py` filtra valores `None` y arrays vacíos (`[]`) del JSON output.
+- Atlas (22), Familiar (24) y PDF Basa (22) generan la mayoría de las ofertas. El resto son datos hardcoded de fallback.

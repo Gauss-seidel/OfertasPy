@@ -15,6 +15,8 @@ class Oferta:
     fechaFin: str | None = None
     source: str = ""
     logo: str | None = None
+    diasSemana: list[int] | None = None
+    tiendas: list[str] | None = None
 
 
 class Scraper(ABC):

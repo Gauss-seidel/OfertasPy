@@ -406,6 +406,124 @@
   transform: scale(1.15);
 }
 
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-end;
+  backdrop-filter: blur(2px);
+}
+
+.drawer {
+  width: min(380px, 100vw);
+  max-height: 100vh;
+  overflow-y: auto;
+  background: var(--surface);
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px 0;
+}
+
+.drawer-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin: 0;
+  flex: 1;
+  padding-right: 12px;
+}
+
+.drawer-close {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: var(--border);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+
+.drawer-close:hover {
+  background: var(--primary-light);
+  color: #fff;
+}
+
+.drawer-close svg {
+  width: 18px;
+  height: 18px;
+}
+
+.drawer-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  padding: 8px 24px 16px;
+  margin: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.drawer-list {
+  list-style: none;
+  margin: 0;
+  padding: 12px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.drawer-list li {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: var(--text);
+  transition: background 0.15s;
+}
+
+.drawer-list li:hover {
+  background: rgba(15, 118, 110, 0.06);
+}
+
+.btn-tiendas {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: 1px solid var(--primary-light);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--primary);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+}
+
+.btn-tiendas:hover {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.btn-tiendas svg {
+  flex-shrink: 0;
+}
+
 @media (max-width: 640px) {
   .header {
     padding: 32px 16px 48px;

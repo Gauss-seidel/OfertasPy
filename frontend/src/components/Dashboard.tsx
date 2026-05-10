@@ -44,7 +44,7 @@ export default function Dashboard() {
       r = r.filter((o) => o.categoria === activeCategoria)
     }
     if (activeDia !== null) {
-      r = r.filter((o) => !o.diasSemana || o.diasSemana.includes(activeDia))
+      r = r.filter((o) => o.diasSemana?.includes(activeDia))
     }
     return r
   }, [activeCategoria, activeDia])

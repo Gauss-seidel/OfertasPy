@@ -1,0 +1,102 @@
+from .base import Scraper, Oferta
+
+
+class EkoScraper(Scraper):
+    fuente = "Eko"
+
+    def scrape(self) -> list[Oferta]:
+        return self._fallback()
+
+    def _fallback(self) -> list[Oferta]:
+        return [
+            Oferta(
+                id="eko-1",
+                titulo="Combustible Enex",
+                descripcion="10% de descuento en estaciones Enex adheridas todos los martes de mayo. Tope de compra mensual: Gs. 600.000, tope de reintegro: Gs. 60.000.",
+                descuento="10% descuento",
+                tienda="Eko",
+                categoria="otros",
+                medioPago="QR Eko",
+                fechaInicio="2026-05-01",
+                fechaFin="2026-05-31",
+                diasSemana=[2],
+                source="https://www.eko.com.py",
+            ),
+            Oferta(
+                id="eko-2",
+                titulo="Restaurantes seleccionados",
+                descripcion="20% de reintegro en restaurantes seleccionados pagando con Eko via Google Pay (del 04 al 31 de mayo). Tope de compra: Gs. 200.000, tope de reintegro: Gs. 40.000.",
+                descuento="20% reintegro",
+                tienda="Eko",
+                categoria="restaurante",
+                medioPago="QR Eko / Google Pay",
+                fechaInicio="2026-05-04",
+                fechaFin="2026-05-31",
+                source="https://www.eko.com.py",
+            ),
+            Oferta(
+                id="eko-3",
+                titulo="Burger King",
+                descripcion="20% de reintegro con QR Eko los viernes. Tope de compra mensual: Gs. 600.000, tope de reintegro: Gs. 120.000.",
+                descuento="20% reintegro",
+                tienda="Eko",
+                categoria="restaurante",
+                medioPago="QR Eko",
+                fechaInicio="2026-01-01",
+                fechaFin="2026-12-31",
+                diasSemana=[5],
+                source="https://www.eko.com.py",
+            ),
+            Oferta(
+                id="eko-4",
+                titulo="Cinemark",
+                descripcion="30% de reintegro con QR Eko los jueves. Tope de compra mensual: Gs. 600.000, tope de reintegro: Gs. 180.000.",
+                descuento="30% reintegro",
+                tienda="Eko",
+                categoria="entretenimiento",
+                medioPago="QR Eko",
+                fechaInicio="2026-01-01",
+                fechaFin="2026-12-31",
+                diasSemana=[4],
+                source="https://www.eko.com.py",
+            ),
+            Oferta(
+                id="eko-5",
+                titulo="Subway",
+                descripcion="20% de reintegro con QR Eko los miercoles. Tope de compra mensual: Gs. 400.000, tope de reintegro: Gs. 80.000.",
+                descuento="20% reintegro",
+                tienda="Eko",
+                categoria="restaurante",
+                medioPago="QR Eko",
+                fechaInicio="2026-01-01",
+                fechaFin="2026-12-31",
+                diasSemana=[3],
+                source="https://www.eko.com.py",
+            ),
+            Oferta(
+                id="eko-6",
+                titulo="Farmatotal",
+                descripcion="20% de reintegro con QR Eko los lunes. Tope de compra mensual: Gs. 400.000, tope de reintegro: Gs. 80.000.",
+                descuento="20% reintegro",
+                tienda="Eko",
+                categoria="salud",
+                medioPago="QR Eko",
+                fechaInicio="2026-01-01",
+                fechaFin="2026-12-31",
+                diasSemana=[1],
+                source="https://www.eko.com.py",
+            ),
+            Oferta(
+                id="eko-7",
+                titulo="Biggie",
+                descripcion="20% de descuento con QR Eko los martes en Biggie.",
+                descuento="20% descuento",
+                tienda="Eko",
+                categoria="supermercado",
+                medioPago="QR Eko",
+                fechaInicio="2026-01-01",
+                fechaFin="2026-12-31",
+                diasSemana=[2],
+                source="https://www.eko.com.py",
+            ),
+        ]
