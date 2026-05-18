@@ -1,6 +1,6 @@
 [
   {
-    "id": "ueno-347",
+    "id": "ueno-563",
     "titulo": "Beneficios - ueno - Banco Digital",
     "descripcion": "Beneficios - ueno - Banco Digital",
     "descuento": "Beneficio",
@@ -115,8 +115,8 @@
   },
   {
     "id": "atlas-0",
-    "titulo": "Viajá con beneficios",
-    "descripcion": "Disfrutá de hasta 30% de reintegro + hasta 18 cuotas sin intereses con tarjetas de crédito Atlas en agencias adheridas.",
+    "titulo": "Biggie",
+    "descripcion": "Disfrutá de 30% de reintegro con tus tarjetas de crédito Atlas.",
     "descuento": "30% reintegro",
     "tienda": "Banco Atlas",
     "categoria": "otros",
@@ -127,15 +127,18 @@
   },
   {
     "id": "atlas-1",
-    "titulo": "Biggie",
-    "descripcion": "Disfrutá de 30% de reintegro con tus tarjetas de crédito Atlas.",
-    "descuento": "30% reintegro",
+    "titulo": "Beneficios en supermercados",
+    "descripcion": "¡Todos los viernes! Llená el carrito con hasta 25% de reintegro con tus tarjetas de crédito Atlas.",
+    "descuento": "25% reintegro",
     "tienda": "Banco Atlas",
-    "categoria": "otros",
+    "categoria": "supermercado",
     "medioPago": "Tarjetas Atlas",
     "fechaInicio": "2026-01-01",
     "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
+    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html",
+    "diasSemana": [
+      5
+    ]
   },
   {
     "id": "atlas-2",
@@ -154,96 +157,6 @@
   },
   {
     "id": "atlas-3",
-    "titulo": "Beneficios en supermercados",
-    "descripcion": "¡Todos los viernes! Llená el carrito con hasta 25% de reintegro con tus tarjetas de crédito Atlas.",
-    "descuento": "25% reintegro",
-    "tienda": "Banco Atlas",
-    "categoria": "supermercado",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html",
-    "diasSemana": [
-      5
-    ]
-  },
-  {
-    "id": "atlas-4",
-    "titulo": "Atlas Week en delSol Shopping",
-    "descripcion": "Disfrutá de hasta 30% de reintegro con tarjetas de crédito Atlas + 12 cuotas sin intereses con tus tarjetas de crédito delSol Atlas en locales adheridos.",
-    "descuento": "30% reintegro",
-    "tienda": "Banco Atlas",
-    "categoria": "otros",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
-  },
-  {
-    "id": "atlas-5",
-    "titulo": "Gran Vía",
-    "descripcion": "Disfrutá de 20% de reintegro con tarjetas de crédito en las sucursales de zona este del país.",
-    "descuento": "20% reintegro",
-    "tienda": "Banco Atlas",
-    "categoria": "otros",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
-  },
-  {
-    "id": "atlas-6",
-    "titulo": "Beneficios gastronómicos",
-    "descripcion": "Tus platos favoritos con hasta 25% de reintegro en locales gastronómicos adheridos en todo el país con tarjetas de crédito Atlas.",
-    "descuento": "25% reintegro",
-    "tienda": "Banco Atlas",
-    "categoria": "restaurante",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
-  },
-  {
-    "id": "atlas-7",
-    "titulo": "Beneficios en Spa y Peluquerías",
-    "descripcion": "¡Renová tu estilo y relajate con este beneficio! Disfrutá hasta 25% de reintegro con tarjetas de crédito Atlas en locales adheridos.",
-    "descuento": "25% reintegro",
-    "tienda": "Banco Atlas",
-    "categoria": "otros",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
-  },
-  {
-    "id": "atlas-8",
-    "titulo": "BOX Mayorista - San José, CDE",
-    "descripcion": "¡El tercer lunes de cada mes! Disfrutá de 20% de reintegro con tarjetas de crédito Atlas.",
-    "descuento": "20% reintegro",
-    "tienda": "Banco Atlas",
-    "categoria": "otros",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html",
-    "diasSemana": [
-      1
-    ]
-  },
-  {
-    "id": "atlas-9",
-    "titulo": "Mario Alonso Puig",
-    "descripcion": "Disfrutá de 20% de reintegro + hasta 12 cuotas sin intereses con tarjetas de crédito Atlas.",
-    "descuento": "20% reintegro",
-    "tienda": "Banco Atlas",
-    "categoria": "otros",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
-  },
-  {
-    "id": "atlas-10",
     "titulo": "PedidosYa",
     "descripcion": "¡TODOS LOS VIERNES Y SÁBADOS! Disfrutá de 20% de reintegro con tus tarjetas de crédito Atlas.",
     "descuento": "20% reintegro",
@@ -259,7 +172,19 @@
     ]
   },
   {
-    "id": "atlas-11",
+    "id": "atlas-4",
+    "titulo": "Beneficios gastronómicos",
+    "descripcion": "Tus platos favoritos con hasta 25% de reintegro en locales gastronómicos adheridos en todo el país con tarjetas de crédito Atlas.",
+    "descuento": "25% reintegro",
+    "tienda": "Banco Atlas",
+    "categoria": "restaurante",
+    "medioPago": "Tarjetas Atlas",
+    "fechaInicio": "2026-01-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
+  },
+  {
+    "id": "atlas-5",
     "titulo": "Delimarket",
     "descripcion": "¡TODOS LOS SÁBADOS! Llená tu carrito y disfrutá de hasta 25% de reintegro con tus tarjetas de crédito delSol Atlas.",
     "descuento": "25% reintegro",
@@ -274,7 +199,70 @@
     ]
   },
   {
-    "id": "atlas-12",
+    "id": "atlas-6",
+    "titulo": "BOX Mayorista - San José, CDE",
+    "descripcion": "¡El tercer lunes de cada mes! Disfrutá de 20% de reintegro con tarjetas de crédito Atlas.",
+    "descuento": "20% reintegro",
+    "tienda": "Banco Atlas",
+    "categoria": "otros",
+    "medioPago": "Tarjetas Atlas",
+    "fechaInicio": "2026-01-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html",
+    "diasSemana": [
+      1
+    ]
+  },
+  {
+    "id": "atlas-7",
+    "titulo": "Gran Vía",
+    "descripcion": "Disfrutá de 20% de reintegro con tarjetas de crédito en las sucursales de zona este del país.",
+    "descuento": "20% reintegro",
+    "tienda": "Banco Atlas",
+    "categoria": "otros",
+    "medioPago": "Tarjetas Atlas",
+    "fechaInicio": "2026-01-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
+  },
+  {
+    "id": "atlas-8",
+    "titulo": "Beneficios en Spa y Peluquerías",
+    "descripcion": "¡Renová tu estilo y relajate con este beneficio! Disfrutá hasta 25% de reintegro con tarjetas de crédito Atlas en locales adheridos.",
+    "descuento": "25% reintegro",
+    "tienda": "Banco Atlas",
+    "categoria": "otros",
+    "medioPago": "Tarjetas Atlas",
+    "fechaInicio": "2026-01-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
+  },
+  {
+    "id": "atlas-9",
+    "titulo": "Mario Alonso Puig",
+    "descripcion": "Disfrutá de 20% de reintegro + hasta 12 cuotas sin intereses con tarjetas de crédito Atlas.",
+    "descuento": "20% reintegro",
+    "tienda": "Banco Atlas",
+    "categoria": "otros",
+    "medioPago": "Tarjetas Atlas",
+    "fechaInicio": "2026-01-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
+  },
+  {
+    "id": "atlas-10",
+    "titulo": "Atlas Viajes",
+    "descripcion": "Es momento de viajar y disfrutar de una experiencia a tu medida con hasta 18 cuotas sin intereses con tarjetas de crédito Atlas",
+    "descuento": "18 cuotas s/interés",
+    "tienda": "Banco Atlas",
+    "categoria": "viajes",
+    "medioPago": "Tarjetas Atlas",
+    "fechaInicio": "2026-01-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
+  },
+  {
+    "id": "atlas-11",
     "titulo": "Tecnología a tu alcance",
     "descripcion": "Disfrutá de hasta 12 cuotas sin intereses con tus tarjetas de crédito Atlas.",
     "descuento": "12 cuotas s/interés",
@@ -286,22 +274,7 @@
     "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
   },
   {
-    "id": "atlas-13",
-    "titulo": "Shopping Pinedo",
-    "descripcion": "Todos los viernes disfrutá de estos beneficios: Hasta 20% de descuento en tiendas adheridas + 3 cuotas sin intereses con tus tarjetas de crédito Atlas.",
-    "descuento": "20% OFF",
-    "tienda": "Banco Atlas",
-    "categoria": "otros",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html",
-    "diasSemana": [
-      5
-    ]
-  },
-  {
-    "id": "atlas-14",
+    "id": "atlas-12",
     "titulo": "Gastro Mariscal",
     "descripcion": "De LUNES A VIERNES disfrutá de los mejores platos con 20% de reintegro en los locales gastronómicos del Shopping Mariscal con tus tarjetas de crédito Atlas.",
     "descuento": "20% reintegro",
@@ -320,7 +293,7 @@
     ]
   },
   {
-    "id": "atlas-15",
+    "id": "atlas-13",
     "titulo": "Shopping Mariscal",
     "descripcion": "¡TODOS LOS MIÉRCOLES! Disfrutá de 20% de descuento en caja + hasta 3 cuotas sin intereses en locales adheridos.",
     "descuento": "20% OFF",
@@ -335,12 +308,39 @@
     ]
   },
   {
-    "id": "atlas-16",
-    "titulo": "Atlas Viajes",
-    "descripcion": "Es momento de viajar y disfrutar de una experiencia a tu medida con hasta 18 cuotas sin intereses con tarjetas de crédito Atlas",
-    "descuento": "18 cuotas s/interés",
+    "id": "atlas-14",
+    "titulo": "Shopping Pinedo",
+    "descripcion": "Todos los viernes disfrutá de estos beneficios: Hasta 20% de descuento en tiendas adheridas + 3 cuotas sin intereses con tus tarjetas de crédito Atlas.",
+    "descuento": "20% OFF",
     "tienda": "Banco Atlas",
-    "categoria": "viajes",
+    "categoria": "otros",
+    "medioPago": "Tarjetas Atlas",
+    "fechaInicio": "2026-01-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html",
+    "diasSemana": [
+      5
+    ]
+  },
+  {
+    "id": "atlas-15",
+    "titulo": "Renová tu hogar",
+    "descripcion": "Renová los espacios de tu hogar con tus tarjetas de crédito Atlas en hasta 12 cuotas sin intereses. Rubros adheridos: Artículos electrónicos, mueblería y decoración, casas de pinturas, ferreterías, electrodomésticos y equipos musicales.",
+    "descuento": "12 cuotas s/interés",
+    "tienda": "Banco Atlas",
+    "categoria": "tecnologia",
+    "medioPago": "Tarjetas Atlas",
+    "fechaInicio": "2026-01-01",
+    "fechaFin": "2026-12-31",
+    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
+  },
+  {
+    "id": "atlas-16",
+    "titulo": "Impuestos al Día",
+    "descripcion": "Pagá tus impuestos en hasta 12 cuotas sin intereses con tus tarjetas de crédito Atlas.",
+    "descuento": "12 cuotas s/interés",
+    "tienda": "Banco Atlas",
+    "categoria": "otros",
     "medioPago": "Tarjetas Atlas",
     "fechaInicio": "2026-01-01",
     "fechaFin": "2026-12-31",
@@ -372,30 +372,6 @@
   },
   {
     "id": "atlas-19",
-    "titulo": "Impuestos al Día",
-    "descripcion": "Pagá tus impuestos en hasta 12 cuotas sin intereses con tus tarjetas de crédito Atlas.",
-    "descuento": "12 cuotas s/interés",
-    "tienda": "Banco Atlas",
-    "categoria": "otros",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
-  },
-  {
-    "id": "atlas-20",
-    "titulo": "Renová tu hogar",
-    "descripcion": "Renová los espacios de tu hogar con tus tarjetas de crédito Atlas en hasta 12 cuotas sin intereses. Rubros adheridos: Artículos electrónicos, mueblería y decoración, casas de pinturas, ferreterías, electrodomésticos y equipos musicales.",
-    "descuento": "12 cuotas s/interés",
-    "tienda": "Banco Atlas",
-    "categoria": "tecnologia",
-    "medioPago": "Tarjetas Atlas",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.bancoatlas.com.py/web/beneficios/beneficios.html"
-  },
-  {
-    "id": "atlas-21",
     "titulo": "Beneficio Universidades",
     "descripcion": "La comodidad de pagar tus estudios en hasta 12 cuotas sin intereses con tus tarjetas de crédito Atlas.",
     "descuento": "12 cuotas s/interés",
@@ -499,7 +475,7 @@
   {
     "id": "itau-1",
     "titulo": "beneficios para vos",
-    "descripcion": "20% de ahorro.",
+    "descripcion": "hasta 55% de ahorro mas 5% adicional pagando con QR, Apple Pay o Google Pay y hasta 10 cuotas sin intereses.",
     "descuento": "Beneficio",
     "tienda": "Itau Paraguay",
     "categoria": "otros",
@@ -559,7 +535,7 @@
   {
     "id": "familiar-0",
     "titulo": "Promocion 0",
-    "descripcion": "DIA DE LA MADRE - SHOPPING",
+    "descripcion": "FARMATOTAL DÍA DE LA MADRE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -571,7 +547,7 @@
   {
     "id": "familiar-1",
     "titulo": "Promocion 1",
-    "descripcion": "DIA DE LA MADRE - SHOPPING",
+    "descripcion": "FARMATOTAL DÍA DE LA MADRE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -583,7 +559,7 @@
   {
     "id": "familiar-2",
     "titulo": "Promocion 2",
-    "descripcion": "DIA DE LA MADRE - SHOPPING",
+    "descripcion": "FARMATOTAL DÍA DE LA MADRE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -595,7 +571,7 @@
   {
     "id": "familiar-3",
     "titulo": "Promocion 3",
-    "descripcion": "DIA DE LA MADRE - TIENDAS",
+    "descripcion": "FARMACENTER DÍA DE LA MADRE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -607,7 +583,7 @@
   {
     "id": "familiar-4",
     "titulo": "Promocion 4",
-    "descripcion": "NICE",
+    "descripcion": "DÍA DE LA MADRE - SHOPPING",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -619,7 +595,7 @@
   {
     "id": "familiar-5",
     "titulo": "Promocion 5",
-    "descripcion": "LA CAFEBRERÍA",
+    "descripcion": "DÍA DE LA MADRE - TIENDAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -631,7 +607,7 @@
   {
     "id": "familiar-6",
     "titulo": "Promocion 6",
-    "descripcion": "VALENCE-SHOPPING MARIANO",
+    "descripcion": "NICE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -643,7 +619,7 @@
   {
     "id": "familiar-7",
     "titulo": "Promocion 7",
-    "descripcion": "COMPLOT-SHOPPING MARIANO",
+    "descripcion": "LA CAFEBRERÍA",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -655,7 +631,7 @@
   {
     "id": "familiar-8",
     "titulo": "Promocion 8",
-    "descripcion": "CEI-SHOPPING MARIANO",
+    "descripcion": "VALENCE-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -667,7 +643,7 @@
   {
     "id": "familiar-9",
     "titulo": "Promocion 9",
-    "descripcion": "CHIKIS-SHOPPING MARIANO",
+    "descripcion": "COMPLOT-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -679,7 +655,7 @@
   {
     "id": "familiar-10",
     "titulo": "Promocion 10",
-    "descripcion": "NICE-SHOPPING MARIANO",
+    "descripcion": "CEI-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -691,7 +667,7 @@
   {
     "id": "familiar-11",
     "titulo": "Promocion 11",
-    "descripcion": "FARMACIA CATEDRAL-SHOPPING MARIANO",
+    "descripcion": "CHIKIS-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -703,7 +679,7 @@
   {
     "id": "familiar-12",
     "titulo": "Promocion 12",
-    "descripcion": "ARES-SHOPPING MARIANO",
+    "descripcion": "NICE-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -715,7 +691,7 @@
   {
     "id": "familiar-13",
     "titulo": "Promocion 13",
-    "descripcion": "BERTONI-SHOPPING MARIANO",
+    "descripcion": "FARMACIA CATEDRAL-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -727,7 +703,7 @@
   {
     "id": "familiar-14",
     "titulo": "Promocion 14",
-    "descripcion": "DENOIR-SHOPPING MARIANO",
+    "descripcion": "ARES-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -739,7 +715,7 @@
   {
     "id": "familiar-15",
     "titulo": "Promocion 15",
-    "descripcion": "GOTITAS-SHOPPING MARIANO",
+    "descripcion": "BERTONI-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -751,7 +727,7 @@
   {
     "id": "familiar-16",
     "titulo": "Promocion 16",
-    "descripcion": "HAVAIANAS-SHOPPING MARIANO",
+    "descripcion": "DENOIR-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
