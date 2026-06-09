@@ -1,6 +1,6 @@
 [
   {
-    "id": "ueno-328",
+    "id": "ueno-998",
     "titulo": "Beneficios - ueno - Banco Digital",
     "descripcion": "Beneficios - ueno - Banco Digital",
     "descuento": "Beneficio",
@@ -384,7 +384,7 @@
   {
     "id": "familiar-0",
     "titulo": "Promocion 0",
-    "descripcion": "DIA DEL PADRE - TIENDAS",
+    "descripcion": "DÍA DEL PADRE - TIENDAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -396,7 +396,7 @@
   {
     "id": "familiar-1",
     "titulo": "Promocion 1",
-    "descripcion": "DIA DEL PADRE - TIENDAS",
+    "descripcion": "DÍA DEL PADRE - TIENDAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -408,7 +408,7 @@
   {
     "id": "familiar-2",
     "titulo": "Promocion 2",
-    "descripcion": "DIA DEL PADRE - TIENDAS",
+    "descripcion": "DÍA DEL PADRE - TIENDAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
