@@ -1,6 +1,6 @@
 [
   {
-    "id": "ueno-712",
+    "id": "ueno-859",
     "titulo": "Beneficios - ueno - Banco Digital",
     "descripcion": "Beneficios - ueno - Banco Digital",
     "descuento": "Beneficio",
@@ -384,7 +384,7 @@
   {
     "id": "familiar-0",
     "titulo": "Promocion 0",
-    "descripcion": "DÍA DEL PADRE - TIENDAS",
+    "descripcion": "BIGGIE EXPRESS PARAGUAY HASTA 50%",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -396,7 +396,7 @@
   {
     "id": "familiar-1",
     "titulo": "Promocion 1",
-    "descripcion": "DÍA DEL PADRE - TIENDAS",
+    "descripcion": "BIGGIE EXPRESS PARAGUAY HASTA 50%",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -408,7 +408,7 @@
   {
     "id": "familiar-2",
     "titulo": "Promocion 2",
-    "descripcion": "DÍA DEL PADRE - TIENDAS",
+    "descripcion": "BIGGIE EXPRESS PARAGUAY HASTA 50%",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -420,7 +420,7 @@
   {
     "id": "familiar-3",
     "titulo": "Promocion 3",
-    "descripcion": "DÍA DEL PADRE - SHOPPING",
+    "descripcion": "DÍA DEL PADRE - TIENDAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -432,7 +432,7 @@
   {
     "id": "familiar-4",
     "titulo": "Promocion 4",
-    "descripcion": "JACK & JONES",
+    "descripcion": "DÍA DEL PADRE - SHOPPING",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -444,7 +444,7 @@
   {
     "id": "familiar-5",
     "titulo": "Promocion 5",
-    "descripcion": "ML MULTIMARCAS",
+    "descripcion": "JACK & JONES",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -456,7 +456,7 @@
   {
     "id": "familiar-6",
     "titulo": "Promocion 6",
-    "descripcion": "JOYERIAS",
+    "descripcion": "ML MULTIMARCAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -468,7 +468,7 @@
   {
     "id": "familiar-7",
     "titulo": "Promocion 7",
-    "descripcion": "NICE",
+    "descripcion": "JOYERIAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -480,7 +480,7 @@
   {
     "id": "familiar-8",
     "titulo": "Promocion 8",
-    "descripcion": "LA CAFEBRERÍA",
+    "descripcion": "NICE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -492,7 +492,7 @@
   {
     "id": "familiar-9",
     "titulo": "Promocion 9",
-    "descripcion": "VALENCE-SHOPPING MARIANO",
+    "descripcion": "LA CAFEBRERÍA",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -504,7 +504,7 @@
   {
     "id": "familiar-10",
     "titulo": "Promocion 10",
-    "descripcion": "COMPLOT-SHOPPING MARIANO",
+    "descripcion": "VALENCE-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -516,7 +516,7 @@
   {
     "id": "familiar-11",
     "titulo": "Promocion 11",
-    "descripcion": "CEI-SHOPPING MARIANO",
+    "descripcion": "COMPLOT-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -528,7 +528,7 @@
   {
     "id": "familiar-12",
     "titulo": "Promocion 12",
-    "descripcion": "CHIKIS-SHOPPING MARIANO",
+    "descripcion": "CEI-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -540,7 +540,7 @@
   {
     "id": "familiar-13",
     "titulo": "Promocion 13",
-    "descripcion": "NICE-SHOPPING MARIANO",
+    "descripcion": "CHIKIS-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -552,7 +552,7 @@
   {
     "id": "familiar-14",
     "titulo": "Promocion 14",
-    "descripcion": "FARMACIA CATEDRAL-SHOPPING MARIANO",
+    "descripcion": "NICE-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -564,7 +564,7 @@
   {
     "id": "familiar-15",
     "titulo": "Promocion 15",
-    "descripcion": "ARES-SHOPPING MARIANO",
+    "descripcion": "FARMACIA CATEDRAL-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -576,7 +576,7 @@
   {
     "id": "familiar-16",
     "titulo": "Promocion 16",
-    "descripcion": "BERTONI-SHOPPING MARIANO",
+    "descripcion": "ARES-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
