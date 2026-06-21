@@ -1,6 +1,6 @@
 [
   {
-    "id": "ueno-18",
+    "id": "ueno-71",
     "titulo": "Beneficios - ueno - Banco Digital",
     "descripcion": "Beneficios - ueno - Banco Digital",
     "descuento": "Beneficio",
@@ -468,7 +468,7 @@
   {
     "id": "familiar-7",
     "titulo": "Promocion 7",
-    "descripcion": "DÍA DEL PADRE - SHOPPING",
+    "descripcion": "JACK & JONES",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -480,7 +480,7 @@
   {
     "id": "familiar-8",
     "titulo": "Promocion 8",
-    "descripcion": "JACK & JONES",
+    "descripcion": "ML MULTIMARCAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -492,7 +492,7 @@
   {
     "id": "familiar-9",
     "titulo": "Promocion 9",
-    "descripcion": "ML MULTIMARCAS",
+    "descripcion": "PRIMERA COMPRA OFERTA APP",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -504,7 +504,7 @@
   {
     "id": "familiar-10",
     "titulo": "Promocion 10",
-    "descripcion": "PRIMERA COMPRA OFERTA APP",
+    "descripcion": "JOYERIAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -516,7 +516,7 @@
   {
     "id": "familiar-11",
     "titulo": "Promocion 11",
-    "descripcion": "JOYERIAS",
+    "descripcion": "NICE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -528,7 +528,7 @@
   {
     "id": "familiar-12",
     "titulo": "Promocion 12",
-    "descripcion": "NICE",
+    "descripcion": "LA CAFEBRERÍA",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -540,7 +540,7 @@
   {
     "id": "familiar-13",
     "titulo": "Promocion 13",
-    "descripcion": "LA CAFEBRERÍA",
+    "descripcion": "VALENCE-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -552,7 +552,7 @@
   {
     "id": "familiar-14",
     "titulo": "Promocion 14",
-    "descripcion": "VALENCE-SHOPPING MARIANO",
+    "descripcion": "COMPLOT-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -564,7 +564,7 @@
   {
     "id": "familiar-15",
     "titulo": "Promocion 15",
-    "descripcion": "COMPLOT-SHOPPING MARIANO",
+    "descripcion": "CEI-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -576,7 +576,7 @@
   {
     "id": "familiar-16",
     "titulo": "Promocion 16",
-    "descripcion": "CEI-SHOPPING MARIANO",
+    "descripcion": "CHIKIS-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
