@@ -1,6 +1,6 @@
 [
   {
-    "id": "ueno-777",
+    "id": "ueno-460",
     "titulo": "Beneficios - ueno - Banco Digital",
     "descripcion": "Beneficios - ueno - Banco Digital",
     "descuento": "Beneficio",
@@ -492,7 +492,7 @@
   {
     "id": "familiar-9",
     "titulo": "Promocion 9",
-    "descripcion": "JACK & JONES",
+    "descripcion": "BIGGIE EXPRESS PARAGUAY HASTA 50%",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -504,7 +504,7 @@
   {
     "id": "familiar-10",
     "titulo": "Promocion 10",
-    "descripcion": "ML MULTIMARCAS",
+    "descripcion": "JACK & JONES",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -516,7 +516,7 @@
   {
     "id": "familiar-11",
     "titulo": "Promocion 11",
-    "descripcion": "PRIMERA COMPRA OFERTA APP",
+    "descripcion": "ML MULTIMARCAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -528,7 +528,7 @@
   {
     "id": "familiar-12",
     "titulo": "Promocion 12",
-    "descripcion": "JOYERIAS",
+    "descripcion": "PRIMERA COMPRA OFERTA APP",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -540,7 +540,7 @@
   {
     "id": "familiar-13",
     "titulo": "Promocion 13",
-    "descripcion": "NICE",
+    "descripcion": "JOYERIAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -552,7 +552,7 @@
   {
     "id": "familiar-14",
     "titulo": "Promocion 14",
-    "descripcion": "LA CAFEBRERÍA",
+    "descripcion": "NICE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -564,7 +564,7 @@
   {
     "id": "familiar-15",
     "titulo": "Promocion 15",
-    "descripcion": "VALENCE-SHOPPING MARIANO",
+    "descripcion": "LA CAFEBRERÍA",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -576,7 +576,7 @@
   {
     "id": "familiar-16",
     "titulo": "Promocion 16",
-    "descripcion": "COMPLOT-SHOPPING MARIANO",
+    "descripcion": "VALENCE-SHOPPING MARIANO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
