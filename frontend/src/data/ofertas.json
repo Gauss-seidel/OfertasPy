@@ -1,6 +1,6 @@
 [
   {
-    "id": "ueno-282",
+    "id": "ueno-95",
     "titulo": "Beneficios - ueno - Banco Digital",
     "descripcion": "Beneficios - ueno - Banco Digital",
     "descuento": "Beneficio",
@@ -528,7 +528,7 @@
   {
     "id": "familiar-12",
     "titulo": "Promocion 12",
-    "descripcion": "BIGGIE EXPRESS PARAGUAY HASTA 50%",
+    "descripcion": "JACK & JONES",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -540,7 +540,7 @@
   {
     "id": "familiar-13",
     "titulo": "Promocion 13",
-    "descripcion": "JACK & JONES",
+    "descripcion": "ML MULTIMARCAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -552,7 +552,7 @@
   {
     "id": "familiar-14",
     "titulo": "Promocion 14",
-    "descripcion": "ML MULTIMARCAS",
+    "descripcion": "PRIMERA COMPRA OFERTA APP",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -564,7 +564,7 @@
   {
     "id": "familiar-15",
     "titulo": "Promocion 15",
-    "descripcion": "PRIMERA COMPRA OFERTA APP",
+    "descripcion": "JOYERIAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -576,7 +576,7 @@
   {
     "id": "familiar-16",
     "titulo": "Promocion 16",
-    "descripcion": "JOYERIAS",
+    "descripcion": "NICE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
