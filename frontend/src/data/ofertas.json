@@ -1,6 +1,6 @@
 [
   {
-    "id": "ueno-289",
+    "id": "ueno-609",
     "titulo": "Beneficios - ueno - Banco Digital",
     "descripcion": "Beneficios - ueno - Banco Digital",
     "descuento": "Beneficio",
@@ -311,51 +311,27 @@
   },
   {
     "id": "itau-0",
-    "titulo": "Supermercados Itau",
-    "descripcion": "Descuentos en supermercados con tarjetas Itau.",
-    "descuento": "Descuento",
+    "titulo": "Promocion Itau 0",
+    "descripcion": "Promocion Itau 0",
+    "descuento": "Beneficio",
     "tienda": "Itau Paraguay",
-    "categoria": "supermercado",
+    "categoria": "otros",
     "medioPago": "Tarjetas Itau",
     "fechaInicio": "2026-01-01",
     "fechaFin": "2026-12-31",
-    "source": "https://www.itau.com.py"
+    "source": "https://www.itau.com.py/beneficios"
   },
   {
     "id": "itau-1",
-    "titulo": "Gastronomia Itau",
-    "descripcion": "Beneficios en restaurantes con tarjetas Itau.",
-    "descuento": "Descuento",
+    "titulo": "beneficios para vos",
+    "descripcion": "Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses",
+    "descuento": "Beneficio",
     "tienda": "Itau Paraguay",
-    "categoria": "restaurante",
+    "categoria": "otros",
     "medioPago": "Tarjetas Itau",
     "fechaInicio": "2026-01-01",
     "fechaFin": "2026-12-31",
-    "source": "https://www.itau.com.py"
-  },
-  {
-    "id": "itau-2",
-    "titulo": "Viajes Itau",
-    "descripcion": "Cuotas sin interes en viajes con Itau.",
-    "descuento": "Cuotas s/interes",
-    "tienda": "Itau Paraguay",
-    "categoria": "viajes",
-    "medioPago": "Tarjetas Itau",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.itau.com.py"
-  },
-  {
-    "id": "itau-3",
-    "titulo": "Tecnologia Itau",
-    "descripcion": "Cuotas sin interes en tecnologia con Itau.",
-    "descuento": "Cuotas s/interes",
-    "tienda": "Itau Paraguay",
-    "categoria": "tecnologia",
-    "medioPago": "Tarjetas Itau",
-    "fechaInicio": "2026-01-01",
-    "fechaFin": "2026-12-31",
-    "source": "https://www.itau.com.py"
+    "source": "https://www.itau.com.py/beneficios"
   },
   {
     "id": "continental-0",
