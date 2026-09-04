@@ -1,6 +1,6 @@
 [
   {
-    "id": "ueno-796",
+    "id": "ueno-337",
     "titulo": "Beneficios - ueno - Banco Digital",
     "descripcion": "Beneficios - ueno - Banco Digital",
     "descuento": "Beneficio",
@@ -444,7 +444,7 @@
   {
     "id": "familiar-5",
     "titulo": "Promocion 5",
-    "descripcion": "SHOPPING DAY",
+    "descripcion": "SHOPPING DAY CUOTAS",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -456,7 +456,7 @@
   {
     "id": "familiar-6",
     "titulo": "Promocion 6",
-    "descripcion": "SHOPPING DAY MALL EXCELSIOR",
+    "descripcion": "FARMATOTAL AGOSTO OFF",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -468,7 +468,7 @@
   {
     "id": "familiar-7",
     "titulo": "Promocion 7",
-    "descripcion": "SHOPPING DAY CUOTAS",
+    "descripcion": "COLOSO",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -480,7 +480,7 @@
   {
     "id": "familiar-8",
     "titulo": "Promocion 8",
-    "descripcion": "FARMATOTAL AGOSTO OFF",
+    "descripcion": "RESTAURANTES PLATINUM",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -492,7 +492,7 @@
   {
     "id": "familiar-9",
     "titulo": "Promocion 9",
-    "descripcion": "COLOSO",
+    "descripcion": "BELLEZA Y SPA PLATINUM",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -504,7 +504,7 @@
   {
     "id": "familiar-10",
     "titulo": "Promocion 10",
-    "descripcion": "RESTAURANTES PLATINUM",
+    "descripcion": "CEROGRADO-PLAZA NORTE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -516,7 +516,7 @@
   {
     "id": "familiar-11",
     "titulo": "Promocion 11",
-    "descripcion": "BELLEZA Y SPA PLATINUM",
+    "descripcion": "JOSEPH COIFFURE-PLAZA NORTE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -528,7 +528,7 @@
   {
     "id": "familiar-12",
     "titulo": "Promocion 12",
-    "descripcion": "CEROGRADO-PLAZA NORTE",
+    "descripcion": "FASHION POINT-PLAZA NORTE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -540,7 +540,7 @@
   {
     "id": "familiar-13",
     "titulo": "Promocion 13",
-    "descripcion": "JOSEPH COIFFURE-PLAZA NORTE",
+    "descripcion": "FARMACITY-PLAZA NORTE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -552,7 +552,7 @@
   {
     "id": "familiar-14",
     "titulo": "Promocion 14",
-    "descripcion": "FASHION POINT-PLAZA NORTE",
+    "descripcion": "SPORT HOUSE-PLAZA NORTE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -564,7 +564,7 @@
   {
     "id": "familiar-15",
     "titulo": "Promocion 15",
-    "descripcion": "FARMACITY-PLAZA NORTE",
+    "descripcion": "MATCH",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
@@ -576,7 +576,7 @@
   {
     "id": "familiar-16",
     "titulo": "Promocion 16",
-    "descripcion": "SPORT HOUSE-PLAZA NORTE",
+    "descripcion": "PATROL-PLAZA NORTE",
     "descuento": "Beneficio",
     "tienda": "Banco Familiar",
     "categoria": "otros",
